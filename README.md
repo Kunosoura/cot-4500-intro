@@ -10,4 +10,5 @@ within the command prompt. First command needed to be run only once to download 
 Second command executed the script within the python executable
 
 pip install -r requirements.txt
+
 python.exe src\main\intro_to_python.py
