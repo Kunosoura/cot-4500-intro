@@ -1,13 +1,13 @@
 # cot-4500-intro
 UCF numerical calculus intro assignment
 
-For this assignment, a README is required. The amount of information you put into the 
-README is up to you, but you will need to include the following: 
- 
-• Mention of requirements.txt 
-o Since this is part of the structure, you will need to figure out how to incorporate 
-and use requirements.txt (hint: it’s used to install third party libraries in python)
+The only library dependency for this program is numpy, with the version given in the requirements.txt
 
-• Mention of running python 
-o Must include instructions on how to run intro_to_python.py from the command 
-line 
+I installed Python 3.11.1 using the installer given on the Python website at https://www.python.org/downloads/
+
+I was able to execute the script on Windows by running the following commands from the project directory
+within the command prompt. First command needed to be run only once to download dependencies using pip.
+Second command executed the script within the python executable
+
+pip install -r requirements.txt
+python.exe src\main\intro_to_python.py
